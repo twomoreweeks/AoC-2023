@@ -1,6 +1,5 @@
 e=enumerate
-S=['one','two','three','four','five',
-    'six','seven','eight','nine']
+S='one two three four five six seven eight nine'.split()
 k=0 
 for l in open('o'):
     a=[(x,i)for i,x in e(l)if x.isdigit()]+[
